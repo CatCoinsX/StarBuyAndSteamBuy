@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #012429;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.button-style {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #d3e201bb;
+    border: 1px solid #000000; /* В ожидании набирающего популярность темного режима, рамка черного цвета */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .button-style:hover, .button-style:focus {
+    background: #fbff00; /* Эффект при наведении — дополнительное оформление */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Цвет текста для лучшей читаемости на темном фоне */
+    background-image: url('https://sun9-22.userapi.com/impg/GKhGFd5TdgGX2i8MsPRVQlj9JaS9GoB939rZIA/EPglvbrdqQk.jpg?size=1920x1277&quality=95&sign=cd8ca03e4dfcda0358881727b9467862&type=album'); /* Замените на ваш URL */
+    background-size: cover; /* Заполнение всего экрана */
+    background-position: center; /* Центрирование изображения */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.534); /* Полупрозрачный фон для заголовка */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.425); /* Полупрозрачный фон для футера */
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Или fixed, если хотите, чтобы футер всегда был внизу */
+}
+
+
+
+
+
